@@ -18,7 +18,7 @@ namespace FileHandlingDemo
             }
             else
             {
-                Console.WriteLine("This fiole is not found..");
+                Console.WriteLine("This file is not found..");
             }
             Console.ReadLine();
         }
