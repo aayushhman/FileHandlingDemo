@@ -11,15 +11,11 @@ namespace FileHandlingDemo
     {
         static void Main(string[] args)
         {
-            string path = "D:\\data.txt";
-            if (File.Exists(path))
-            {
-                Console.WriteLine("this file is found..");
-            }
-            else
-            {
-                Console.WriteLine("This file is not found..");
-            }
+            string path = @"D:\data.txt";
+            string path2 = @"D:\data1.txt";
+            File.Copy(path, path2,true);
+            
+
             Console.ReadLine();
         }
     }
